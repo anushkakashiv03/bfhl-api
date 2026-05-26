@@ -2,6 +2,13 @@
 
 Spring Boot REST API for data processing
 
+## 🚀 Live Deployment
+
+**API URL**: https://bfhl-api-1-2hye.onrender.com/bfhl
+
+- **GET** `/bfhl` - Returns operation code
+- **POST** `/bfhl` - Process data array
+
 ## Build & Run
 
 ```bash
