@@ -32,4 +32,9 @@ public class BfhlController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
         }
     }
+
+    @GetMapping
+    public ResponseEntity<String> getOperationCode() {
+        return ResponseEntity.ok("{\"operation_code\":1}");
+    }
 }
